@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Техосмотр</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{% static 'main/assets/favicon.ico' %}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'main/css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Техосмотр</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Меню
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Добро пожаловать на наш сайт</div>
+                <div class="masthead-heading text-uppercase" >Рады вас видеть!</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">К услугам</a>
+            </div>
+        </header>
+
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Услуги</h2>
+                    <h3 class="section-subheading text-muted">Проводим техосмотр с фотофиксацией и занесением в базу ГИБДД (ЕАИСТО) от 500 руб.</h3>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-solid fa-motorcycle"></i>
+                        </span>
+                        <h4 class="my-3">Мотоциклы</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-solid fa-car-side"></i>
+                        </span>
+                        <h4 class="my-3">Легковые машины</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-solid fa-truck"></i>
+                        </span>
+                        <h4 class="my-3">Грузовые автомобили (max масса до 3,5 тонн)</h4>
+                    </div>
+                </div>
+
+                <div class="pt-5">
+                    <h4 class="section-heading text-uppercase">Преимущества работы с нами:</h4>
+                    <h5 class="section-heading text-uppercase">Первое преимущество</h5>
+                    <h5 class="section-heading text-uppercase">Второе преимущество</h5>
+                    <h5 class="section-heading text-uppercase">Третье преимущество</h5>
+                    <h5 class="section-heading text-uppercase">Напишите мне какие у вас преимущества</h5>
+                </div>
+        </section>
+        
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">О нас</h2>
+                    <h3 class="section-subheading text-muted">Напишите мне о вашей компании: когда начали работать и т.д</h3>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Запишитесь</h2>
+                    <h3 class="section-heading text-uppercase">позвоните по номеру телефона или напишите на наш email</h3>
+                    <h3 class="section-heading text-uppercase">8-9** - *** - ** - ** </h3>
+                    <h3 class="section-heading text-uppercase">tekhosmotr@gmail.com</h3>
+                </div>
+
+                <div class="pt-5">
+                    <h4 class="section-heading text-uppercase">Наш адрес:</h4>
+                    <h5 class="section-heading text-uppercase">г. Уфа, ул. Новочеркасская, 13/2</h5>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'main/js/scripts.js' %}"></script>
+    </body>
+</html>
